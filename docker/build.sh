@@ -25,7 +25,7 @@ if [[ $foundImageIDs ]]; then
 else
     echo "No previous images were found."
 fi
-
+ 
 
 # Build image and tag it with image name and version
 docker build . \
